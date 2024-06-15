@@ -29,7 +29,7 @@ body {
 }
 
 main {
-    width: 330px;
+    width: 335px;
     height: 530px;
     background-color: var(--White);
     border-radius: 10px;
@@ -89,7 +89,8 @@ span {
     height: 40px;
     background-color: var(--Dark-cyan);
     color: var(--White);
-    font-weight: 500;
+    font-size: 0.4em;
+    font-weight: 700;
     border-radius: 5px;
     border: none;
     text-align: center;
