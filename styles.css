@@ -105,6 +105,14 @@ span {
     border-radius: 5px;
     border: none;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.price img {
+    margin-right: 1em;
 }
 
 button:hover {
@@ -140,6 +148,10 @@ footer {
         display: block;
         padding: auto;
         border-radius: 10px 10px 0 0;
+    }
+
+    .price button {
+        margin-top: 0;
     }
     
 }
