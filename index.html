@@ -20,7 +20,10 @@
 <div class="container">
   <main>
     <div class="img-container">
-      <img src="./images/image-product-mobile.jpg" alt="Product">
+      <img srcset="./images/image-product-mobile.jpg 480w,
+                  ./images/image-product-desktop.jpg 1440w"
+                  sizes="(max-width: 480px) 480px, 1440px" 
+                  alt="Product">
     </div>
 
     <div class="content">
@@ -29,7 +32,7 @@
         <h1>Gabrielle Essence Eau De Parfum</h1> 
       </header>
     
-      <section class="column">
+      <section class="column p">
         <article>
           <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
             Perfumer-Creator for the House of CHANEL.</p>
